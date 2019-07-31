@@ -147,6 +147,7 @@ p {
 html {
   font-size: 62.5%;
   color: #353535;
+  background: #eaeaea;
 }
 html,
 body {
@@ -168,11 +169,12 @@ header a {
   color: #353535;
 }
 .title {
-  background: #eaeaea;
+  background: #A3FFA4;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   margin-bottom: 5rem;
+  border: 1px solid #353535;
 }
 .title .my-info {
   display: flex;
@@ -223,13 +225,17 @@ header a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.experience h3 {
+  margin-bottom: 2rem;
+  width: 100%;
+}
 .experience .box {
-  background: #eaeaea;
+  background: #A3FFA4;
   height: auto;
   width: 48%;
   margin-bottom: 2.5rem;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid #353535;
 }
 .experience .box h3 {
   font-size: 2rem;
@@ -266,12 +272,12 @@ header a {
   width: 100%;
 }
 .ref {
-  background: #eaeaea;
+  background: #A3FFA4;
   height: auto;
   width: 48%;
   margin-bottom: 2.5rem;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid #353535;
 }
 .ref h4 {
   font-weight: bold;
