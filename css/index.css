@@ -172,9 +172,15 @@ header a {
   background: #A3FFA4;
   margin: 0 auto;
   display: flex;
+  width: 90%;
   justify-content: space-around;
   margin-bottom: 5rem;
   border: 1px solid #353535;
+}
+@media (max-width: 500px) {
+  .title {
+    width: 95%;
+  }
 }
 .title .my-info {
   display: flex;
@@ -199,6 +205,11 @@ header a {
   width: 65%;
   margin: 0 auto;
   margin-bottom: 5rem;
+}
+@media (max-width: 500px) {
+  .education {
+    width: 90%;
+  }
 }
 .education .ed-head {
   display: flex;
@@ -225,6 +236,11 @@ header a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .experience {
+    width: 90%;
+  }
+}
 .experience h3 {
   margin-bottom: 2rem;
   width: 100%;
@@ -250,6 +266,11 @@ header a {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
+@media (max-width: 500px) {
+  .accomplishments {
+    width: 90%;
+  }
+}
 .accomplishments h3 {
   font-size: 3rem;
   font-weight: bold;
@@ -266,6 +287,11 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .pro-references {
+    width: 90%;
+  }
 }
 .pro-references h3 {
   margin-bottom: 2rem;
@@ -290,6 +316,11 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .char-references {
+    width: 90%;
+  }
 }
 .char-references h3 {
   margin-bottom: 2rem;
