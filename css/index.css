@@ -148,16 +148,17 @@ header {
   margin: 2rem 0;
 }
 header a {
-  margin: 40px;
+  margin: 4rem;
   font-size: 1.6rem;
   text-decoration: none;
+  color: #353535;
 }
 .title {
   background: #eaeaea;
-  width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5rem;
 }
 .title .my-info {
   display: flex;
@@ -167,15 +168,61 @@ header a {
 .title .my-info h1 {
   font-size: 4rem;
   margin: 2rem;
+  color: #353535;
 }
 .title .my-info address {
   font-size: 2rem;
   margin: 2rem;
+  color: #353535;
 }
 .title .my-info p {
   font-size: 2rem;
   margin: 2rem;
+  color: #353535;
 }
 .title .jake {
   margin: 2rem;
+}
+.education {
+  margin: 0 auto;
+  width: 55%;
+  margin-bottom: 5rem;
+}
+.education .ed-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.education h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #353535;
+  margin-bottom: 1rem;
+}
+.education h4 {
+  font-size: 2rem;
+  color: #353535;
+  margin-bottom: 1rem;
+}
+.education p {
+  font-size: 1.6rem;
+}
+.experience {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.experience .box {
+  background: #eaeaea;
+  height: auto;
+  width: 49%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.experience .box h3 {
+  font-size: 2rem;
+  font-weight: bold;
 }

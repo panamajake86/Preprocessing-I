@@ -53,6 +53,10 @@ table {
     box-sizing: border-box;
 }
 
+.font-color(){
+	color: #353535;
+}
+
 html{
 	font-size: 62.5%;
 }
@@ -73,18 +77,19 @@ header{
 	margin: 2rem 0;
 		
 	a{
-		margin: 40px;
+		margin: 4rem;
 		font-size: 1.6rem;
 		text-decoration: none;
+		color: #353535;
 	}//a
 }//header
 
 .title{
 	background: #eaeaea;
-	width: 85%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 5rem;
 
 	.my-info{
 		display: flex;
@@ -94,17 +99,71 @@ header{
 		h1{
 			font-size: 4rem;
 			margin: 2rem;
+			.font-color();
 		}//h1
 		address{
 			font-size: 2rem;
 			margin: 2rem;
+			.font-color();
 		}//address
 		p{
 			font-size: 2rem;
 			margin: 2rem;
+			.font-color();
 		}//p
 	}//.my-info
 	.jake{
 		margin: 2rem;
 	}//.jake
 }//.title
+
+.education{
+	margin: 0 auto;
+	width: 55%;
+	margin-bottom: 5rem;
+
+	.ed-head{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 2rem;
+	}//.ed-head
+
+	h3{
+		font-size: 3rem;
+		font-weight: bold;
+		.font-color();
+		margin-bottom: 1rem;
+	}//h3
+
+	h4{
+		font-size: 2rem;
+		.font-color();
+		margin-bottom: 1rem;
+	}//h4
+
+	p{
+		font-size: 1.6rem;
+	}//p
+}//.education
+
+.experience{
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	.box{
+		background: #eaeaea; 
+		height: auto;
+		width: 49%;
+		margin-bottom: 2rem;
+		padding: 1rem;
+		border: 1px solid black;
+
+		h3{
+			font-size: 2rem;
+			font-weight: bold;
+		}//h3
+	}//.box
+}//.experience
