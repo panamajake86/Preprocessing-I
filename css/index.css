@@ -176,6 +176,7 @@ header a {
   justify-content: space-around;
   margin-bottom: 5rem;
   border: 1px solid #353535;
+  border-radius: 25px;
 }
 @media (max-width: 500px) {
   .title {
@@ -252,6 +253,7 @@ header a {
   margin-bottom: 2.5rem;
   padding: 1rem;
   border: 1px solid #353535;
+  border-radius: 15px;
 }
 .experience .box h3 {
   font-size: 2rem;
@@ -304,6 +306,7 @@ header a {
   margin-bottom: 2.5rem;
   padding: 1rem;
   border: 1px solid #353535;
+  border-radius: 15px;
 }
 .ref h4 {
   font-weight: bold;
