@@ -157,13 +157,23 @@ body {
   width: 1028px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
 header {
   display: flex;
   justify-content: flex-end;
-  margin: 2rem 0;
+  margin: 2rem;
+  width: 90%;
+}
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 header a {
-  margin: 4rem;
   font-size: 1.6rem;
   text-decoration: none;
   color: #353535;
@@ -177,6 +187,7 @@ header a {
   margin-bottom: 5rem;
   border: 1px solid #353535;
   border-radius: 25px;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .title {
@@ -191,19 +202,39 @@ header a {
 .title .my-info h1 {
   margin: 2rem;
 }
+@media (max-width: 500px) {
+  .title .my-info h1 {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+}
 .title .my-info address {
   font-size: 2rem;
   margin: 2rem;
+}
+@media (max-width: 500px) {
+  .title .my-info address {
+    font-size: 1.6rem;
+    margin: 1rem;
+  }
 }
 .title .my-info p {
   font-size: 2rem;
   margin: 2rem;
 }
+@media (max-width: 500px) {
+  .title .my-info p {
+    font-size: 1.6rem;
+    margin: 1rem;
+  }
+}
 .title .jake {
   margin: 2rem;
+  width: 33%;
+  height: 33%;
 }
 .education {
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -215,7 +246,9 @@ header a {
 .education .ed-head {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  border-top: 1px solid;
+  padding: 1rem 0 0 0;
 }
 .education h3 {
   font-size: 3rem;
@@ -230,7 +263,7 @@ header a {
   font-size: 1.6rem;
 }
 .experience {
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
   display: flex;
@@ -264,7 +297,7 @@ header a {
   font-size: 1.6rem;
 }
 .accomplishments {
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -283,7 +316,7 @@ header a {
   margin: 1rem 0;
 }
 .pro-references {
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
   display: flex;
@@ -313,7 +346,7 @@ header a {
   margin-bottom: 1rem;
 }
 .char-references {
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
   display: flex;
